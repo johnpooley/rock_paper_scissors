@@ -6,7 +6,7 @@ class Rock_paper_scissors
       return "player 1 wins using #{hand1}! Player 2 lost with #{hand2}" unless hand2 == "paper"
       return "player 2 wins using #{hand2}! Player 1 lost with #{hand1}"
     elsif hand1 == "paper"
-      return "player 1 wins using #{hand1}! Player 2 lost with #{hand2}player 1 wins using #{hand1}! Player 2 lost with #{hand2}" unless hand2 == "scissors"
+      return "player 1 wins using #{hand1}! Player 2 lost with #{hand2}" unless hand2 == "scissors"
       return "player 2 wins using #{hand2}! Player 1 lost with #{hand1}"
     elsif hand1 == "scissors"
       return "player 1 wins using #{hand1}! Player 2 lost with #{hand2}" unless hand2 == "rock"
